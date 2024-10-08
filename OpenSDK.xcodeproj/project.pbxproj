@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		779AF2DC2C92A351008C4ADF /* OpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779AF2D32C92A351008C4ADF /* OpenSDK.framework */; };
+		779AF2E12C92A351008C4ADF /* OpenSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF2E02C92A351008C4ADF /* OpenSDKTests.m */; };
+		779AF2E22C92A351008C4ADF /* OpenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF2D62C92A351008C4ADF /* OpenSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		779AF2F32C92A366008C4ADF /* HiMoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF2EB2C92A366008C4ADF /* HiMoView.m */; };
+		779AF2F42C92A366008C4ADF /* HiMoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF2EC2C92A366008C4ADF /* HiMoHandler.m */; };
+		779AF2F52C92A366008C4ADF /* HiMoHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF2ED2C92A366008C4ADF /* HiMoHandler.h */; };
+		779AF2F62C92A366008C4ADF /* WKWebView+SchemeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF2EE2C92A366008C4ADF /* WKWebView+SchemeHandle.m */; };
+		779AF2F72C92A366008C4ADF /* HiMoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF2EF2C92A366008C4ADF /* HiMoView.h */; };
+		779AF2F92C92A366008C4ADF /* WKWebView+SchemeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF2F12C92A366008C4ADF /* WKWebView+SchemeHandle.h */; };
+		779AF2FA2C92A366008C4ADF /* HiMoHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF2F22C92A366008C4ADF /* HiMoHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		779AF2FC2C92A9F9008C4ADF /* HiMoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF2FB2C92A9F9008C4ADF /* HiMoHelper.m */; };
+		779AF3012C941063008C4ADF /* HiMoMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF2FF2C941063008C4ADF /* HiMoMgr.h */; };
+		779AF3022C941063008C4ADF /* HiMoMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF3002C941063008C4ADF /* HiMoMgr.m */; };
+		779AF3052C941167008C4ADF /* AdConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF3032C941167008C4ADF /* AdConfig.h */; };
+		779AF3062C941167008C4ADF /* AdConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF3042C941167008C4ADF /* AdConfig.m */; };
+		779AF3092C94124F008C4ADF /* HiMoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF3072C94124F008C4ADF /* HiMoConfig.h */; };
+		779AF30A2C94124F008C4ADF /* HiMoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF3082C94124F008C4ADF /* HiMoConfig.m */; };
+		779AF30D2C94128C008C4ADF /* JSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF30B2C94128C008C4ADF /* JSConfig.h */; };
+		779AF30E2C94128C008C4ADF /* JSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF30C2C94128C008C4ADF /* JSConfig.m */; };
+		779AF3112C941D65008C4ADF /* HiMoCtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF30F2C941D65008C4ADF /* HiMoCtr.h */; };
+		779AF3122C941D65008C4ADF /* HiMoCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF3102C941D65008C4ADF /* HiMoCtr.m */; };
+		779AF3162C942378008C4ADF /* HMBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF3142C942378008C4ADF /* HMBaseObject.h */; };
+		779AF3172C942378008C4ADF /* HMBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF3152C942378008C4ADF /* HMBaseObject.m */; };
+		779AF31B2C9428EC008C4ADF /* HMAutoCodingObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 779AF3192C9428EC008C4ADF /* HMAutoCodingObject.h */; };
+		779AF31C2C9428EC008C4ADF /* HMAutoCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AF31A2C9428EC008C4ADF /* HMAutoCodingObject.m */; };
+		77AFBCE12CA6C032006AFE03 /* OpenSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 77AFBCE02CA6C032006AFE03 /* OpenSDK-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		779AF2DD2C92A351008C4ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779AF2CA2C92A351008C4ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779AF2D22C92A351008C4ADF;
+			remoteInfo = OpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		779AF2D32C92A351008C4ADF /* OpenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779AF2D62C92A351008C4ADF /* OpenSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSDK.h; sourceTree = "<group>"; };
+		779AF2DB2C92A351008C4ADF /* OpenSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		779AF2E02C92A351008C4ADF /* OpenSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSDKTests.m; sourceTree = "<group>"; };
+		779AF2EB2C92A366008C4ADF /* HiMoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiMoView.m; sourceTree = "<group>"; };
+		779AF2EC2C92A366008C4ADF /* HiMoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiMoHandler.m; sourceTree = "<group>"; };
+		779AF2ED2C92A366008C4ADF /* HiMoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiMoHandler.h; sourceTree = "<group>"; };
+		779AF2EE2C92A366008C4ADF /* WKWebView+SchemeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SchemeHandle.m"; sourceTree = "<group>"; };
+		779AF2EF2C92A366008C4ADF /* HiMoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiMoView.h; sourceTree = "<group>"; };
+		779AF2F12C92A366008C4ADF /* WKWebView+SchemeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+SchemeHandle.h"; sourceTree = "<group>"; };
+		779AF2F22C92A366008C4ADF /* HiMoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiMoHelper.h; sourceTree = "<group>"; };
+		779AF2FB2C92A9F9008C4ADF /* HiMoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiMoHelper.m; sourceTree = "<group>"; };
+		779AF2FF2C941063008C4ADF /* HiMoMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiMoMgr.h; sourceTree = "<group>"; };
+		779AF3002C941063008C4ADF /* HiMoMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiMoMgr.m; sourceTree = "<group>"; };
+		779AF3032C941167008C4ADF /* AdConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdConfig.h; sourceTree = "<group>"; };
+		779AF3042C941167008C4ADF /* AdConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdConfig.m; sourceTree = "<group>"; };
+		779AF3072C94124F008C4ADF /* HiMoConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiMoConfig.h; sourceTree = "<group>"; };
+		779AF3082C94124F008C4ADF /* HiMoConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiMoConfig.m; sourceTree = "<group>"; };
+		779AF30B2C94128C008C4ADF /* JSConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSConfig.h; sourceTree = "<group>"; };
+		779AF30C2C94128C008C4ADF /* JSConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSConfig.m; sourceTree = "<group>"; };
+		779AF30F2C941D65008C4ADF /* HiMoCtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiMoCtr.h; sourceTree = "<group>"; };
+		779AF3102C941D65008C4ADF /* HiMoCtr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiMoCtr.m; sourceTree = "<group>"; };
+		779AF3142C942378008C4ADF /* HMBaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMBaseObject.h; sourceTree = "<group>"; };
+		779AF3152C942378008C4ADF /* HMBaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBaseObject.m; sourceTree = "<group>"; };
+		779AF3192C9428EC008C4ADF /* HMAutoCodingObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAutoCodingObject.h; sourceTree = "<group>"; };
+		779AF31A2C9428EC008C4ADF /* HMAutoCodingObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAutoCodingObject.m; sourceTree = "<group>"; };
+		77AFBCE02CA6C032006AFE03 /* OpenSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenSDK-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779AF2D02C92A351008C4ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779AF2D82C92A351008C4ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779AF2DC2C92A351008C4ADF /* OpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		779AF2C92C92A351008C4ADF = {
+			isa = PBXGroup;
+			children = (
+				779AF2D52C92A351008C4ADF /* OpenSDK */,
+				779AF2DF2C92A351008C4ADF /* OpenSDKTests */,
+				779AF2D42C92A351008C4ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779AF2D42C92A351008C4ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779AF2D32C92A351008C4ADF /* OpenSDK.framework */,
+				779AF2DB2C92A351008C4ADF /* OpenSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779AF2D52C92A351008C4ADF /* OpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				779AF3182C9424A6008C4ADF /* biz */,
+				779AF3132C942359008C4ADF /* base */,
+				779AF2ED2C92A366008C4ADF /* HiMoHandler.h */,
+				779AF2EC2C92A366008C4ADF /* HiMoHandler.m */,
+				779AF2F22C92A366008C4ADF /* HiMoHelper.h */,
+				779AF2FB2C92A9F9008C4ADF /* HiMoHelper.m */,
+				779AF2EF2C92A366008C4ADF /* HiMoView.h */,
+				779AF2EB2C92A366008C4ADF /* HiMoView.m */,
+				779AF2F12C92A366008C4ADF /* WKWebView+SchemeHandle.h */,
+				779AF2EE2C92A366008C4ADF /* WKWebView+SchemeHandle.m */,
+				779AF2D62C92A351008C4ADF /* OpenSDK.h */,
+				77AFBCE02CA6C032006AFE03 /* OpenSDK-Prefix.pch */,
+			);
+			path = OpenSDK;
+			sourceTree = "<group>";
+		};
+		779AF2DF2C92A351008C4ADF /* OpenSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				779AF2E02C92A351008C4ADF /* OpenSDKTests.m */,
+			);
+			path = OpenSDKTests;
+			sourceTree = "<group>";
+		};
+		779AF3132C942359008C4ADF /* base */ = {
+			isa = PBXGroup;
+			children = (
+				779AF3142C942378008C4ADF /* HMBaseObject.h */,
+				779AF3152C942378008C4ADF /* HMBaseObject.m */,
+				779AF3192C9428EC008C4ADF /* HMAutoCodingObject.h */,
+				779AF31A2C9428EC008C4ADF /* HMAutoCodingObject.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		779AF3182C9424A6008C4ADF /* biz */ = {
+			isa = PBXGroup;
+			children = (
+				779AF2FF2C941063008C4ADF /* HiMoMgr.h */,
+				779AF3002C941063008C4ADF /* HiMoMgr.m */,
+				779AF3032C941167008C4ADF /* AdConfig.h */,
+				779AF3042C941167008C4ADF /* AdConfig.m */,
+				779AF3072C94124F008C4ADF /* HiMoConfig.h */,
+				779AF3082C94124F008C4ADF /* HiMoConfig.m */,
+				779AF30B2C94128C008C4ADF /* JSConfig.h */,
+				779AF30C2C94128C008C4ADF /* JSConfig.m */,
+				779AF30F2C941D65008C4ADF /* HiMoCtr.h */,
+				779AF3102C941D65008C4ADF /* HiMoCtr.m */,
+			);
+			path = biz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		779AF2CE2C92A351008C4ADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AFBCE12CA6C032006AFE03 /* OpenSDK-Prefix.pch in Headers */,
+				779AF2FA2C92A366008C4ADF /* HiMoHelper.h in Headers */,
+				779AF3162C942378008C4ADF /* HMBaseObject.h in Headers */,
+				779AF3012C941063008C4ADF /* HiMoMgr.h in Headers */,
+				779AF30D2C94128C008C4ADF /* JSConfig.h in Headers */,
+				779AF2F72C92A366008C4ADF /* HiMoView.h in Headers */,
+				779AF2F92C92A366008C4ADF /* WKWebView+SchemeHandle.h in Headers */,
+				779AF3112C941D65008C4ADF /* HiMoCtr.h in Headers */,
+				779AF3052C941167008C4ADF /* AdConfig.h in Headers */,
+				779AF3092C94124F008C4ADF /* HiMoConfig.h in Headers */,
+				779AF2F52C92A366008C4ADF /* HiMoHandler.h in Headers */,
+				779AF2E22C92A351008C4ADF /* OpenSDK.h in Headers */,
+				779AF31B2C9428EC008C4ADF /* HMAutoCodingObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		779AF2D22C92A351008C4ADF /* OpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779AF2E52C92A351008C4ADF /* Build configuration list for PBXNativeTarget "OpenSDK" */;
+			buildPhases = (
+				779AF2CE2C92A351008C4ADF /* Headers */,
+				779AF2CF2C92A351008C4ADF /* Sources */,
+				779AF2D02C92A351008C4ADF /* Frameworks */,
+				779AF2D12C92A351008C4ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSDK;
+			productName = OpenSDK;
+			productReference = 779AF2D32C92A351008C4ADF /* OpenSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		779AF2DA2C92A351008C4ADF /* OpenSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779AF2E82C92A351008C4ADF /* Build configuration list for PBXNativeTarget "OpenSDKTests" */;
+			buildPhases = (
+				779AF2D72C92A351008C4ADF /* Sources */,
+				779AF2D82C92A351008C4ADF /* Frameworks */,
+				779AF2D92C92A351008C4ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779AF2DE2C92A351008C4ADF /* PBXTargetDependency */,
+			);
+			name = OpenSDKTests;
+			productName = OpenSDKTests;
+			productReference = 779AF2DB2C92A351008C4ADF /* OpenSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779AF2CA2C92A351008C4ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					779AF2D22C92A351008C4ADF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					779AF2DA2C92A351008C4ADF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 779AF2CD2C92A351008C4ADF /* Build configuration list for PBXProject "OpenSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 779AF2C92C92A351008C4ADF;
+			productRefGroup = 779AF2D42C92A351008C4ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779AF2D22C92A351008C4ADF /* OpenSDK */,
+				779AF2DA2C92A351008C4ADF /* OpenSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		779AF2D12C92A351008C4ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779AF2D92C92A351008C4ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779AF2CF2C92A351008C4ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779AF30E2C94128C008C4ADF /* JSConfig.m in Sources */,
+				779AF2FC2C92A9F9008C4ADF /* HiMoHelper.m in Sources */,
+				779AF3172C942378008C4ADF /* HMBaseObject.m in Sources */,
+				779AF2F62C92A366008C4ADF /* WKWebView+SchemeHandle.m in Sources */,
+				779AF3062C941167008C4ADF /* AdConfig.m in Sources */,
+				779AF2F32C92A366008C4ADF /* HiMoView.m in Sources */,
+				779AF30A2C94124F008C4ADF /* HiMoConfig.m in Sources */,
+				779AF31C2C9428EC008C4ADF /* HMAutoCodingObject.m in Sources */,
+				779AF3022C941063008C4ADF /* HiMoMgr.m in Sources */,
+				779AF2F42C92A366008C4ADF /* HiMoHandler.m in Sources */,
+				779AF3122C941D65008C4ADF /* HiMoCtr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779AF2D72C92A351008C4ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779AF2E12C92A351008C4ADF /* OpenSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		779AF2DE2C92A351008C4ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779AF2D22C92A351008C4ADF /* OpenSDK */;
+			targetProxy = 779AF2DD2C92A351008C4ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		779AF2E32C92A351008C4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		779AF2E42C92A351008C4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		779AF2E62C92A351008C4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 395Z5SKWSQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "OpenSDK/OpenSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OPENSDK_DEBUG=1",
+					"DEBUG=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					OpenSDK,
+					OpenSDK/biz,
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.OpenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYMROOT = "$(SRCROOT)/FrameworkBuild";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779AF2E72C92A351008C4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 395Z5SKWSQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "OpenSDK/OpenSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "OPENSDK_DEBUG=1";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					OpenSDK,
+					OpenSDK/biz,
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.OpenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SYMROOT = "$(SRCROOT)/FrameworkBuild";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		779AF2E92C92A351008C4ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 395Z5SKWSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.OpenSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779AF2EA2C92A351008C4ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 395Z5SKWSQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.OpenSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		779AF2CD2C92A351008C4ADF /* Build configuration list for PBXProject "OpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779AF2E32C92A351008C4ADF /* Debug */,
+				779AF2E42C92A351008C4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779AF2E52C92A351008C4ADF /* Build configuration list for PBXNativeTarget "OpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779AF2E62C92A351008C4ADF /* Debug */,
+				779AF2E72C92A351008C4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779AF2E82C92A351008C4ADF /* Build configuration list for PBXNativeTarget "OpenSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779AF2E92C92A351008C4ADF /* Debug */,
+				779AF2EA2C92A351008C4ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779AF2CA2C92A351008C4ADF /* Project object */;
+}
