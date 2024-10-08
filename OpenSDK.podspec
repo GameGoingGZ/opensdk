@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
 
   spec.requires_arc = true
-
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   spec.source       = { :git => "https://github.com/GameGoingGZ/opensdk.git", :tag => "#{spec.version}" }
 
   spec.vendored_frameworks = 'FrameworkBuild/Release-iphoneos/OpenSDK.framework'
