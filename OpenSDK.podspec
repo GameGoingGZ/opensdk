@@ -25,11 +25,9 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 
 
+  spec.platform     = :ios, "12.0"
 
-  spec.platform     = :ios
-  spec.platform     = :ios, "5.0"
-
-
+  spec.requires_arc = true
 
   spec.source       = { :git => "https://github.com/GameGoingGZ/opensdk.git", :tag => "#{spec.version}" }
 
