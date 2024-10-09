@@ -9,8 +9,8 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "OpenSDK"
-  spec.version      = "0.0.1"
+  spec.name         = "GGOpenSDK"
+  spec.version      = "1.2.3"
   spec.summary      = "OpenSDK des"
 
 
@@ -31,7 +31,14 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/GameGoingGZ/opensdk.git", :tag => "#{spec.version}" }
 
-  spec.vendored_frameworks = 'FrameworkBuild/Release-iphoneos/OpenSDK.framework'
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
-
+  spec.vendored_frameworks = 'FrameworkBuild/Universal/OpenSDK.framework'
+  spec.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', # 排除模拟器的 arm64
+      'ARCHS' => 'arm64', # 只编译 arm64 架构
+  }
+  
+  spec.user_target_xcconfig = { 
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 
+      'ARCHS' => 'arm64', 
+  }
 end
