@@ -19,4 +19,4 @@ FOUNDATION_EXPORT const unsigned char OpenSDKVersionString[];
 //#import <OpenSDK/HiMoMgr.h>
 
 
-static NSString * const kSDKVersion = @"1.2.4";
+static NSString * const kSDKVersion = @"1.3.0";
