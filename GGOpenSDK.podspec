@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "GGOpenSDK"
-  spec.version      = "1.2.3"
+  spec.version      = "1.5.0"
   spec.summary      = "OpenSDK des"
 
 
