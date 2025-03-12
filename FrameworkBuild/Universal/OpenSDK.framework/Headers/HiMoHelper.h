@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-
+void _initOpenSDK(void);
 void _initOpenSDKWithSetting(NSString *setting);
 void _setTheme(NSString *themeStr);
 

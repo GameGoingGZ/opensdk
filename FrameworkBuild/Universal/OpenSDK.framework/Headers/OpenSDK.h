@@ -15,8 +15,16 @@ FOUNDATION_EXPORT const unsigned char OpenSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <OpenSDK/PublicHeader.h>
 
+#import <OpenSDK/OpenConfig.h>
 #import <OpenSDK/HiMoHelper.h>
 //#import <OpenSDK/HiMoMgr.h>
 
 
-static NSString * const kSDKVersion = @"1.5.0";
+static NSString * const kSDKVersion = @"1.5.1";
+
+
+
+
+
+
+//NS_ASSUME_NONNULL_END

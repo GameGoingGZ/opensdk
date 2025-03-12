@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/HiMoHelper.h</key>
 		<data>
-		LkWPtRf0gIiE40e4IIRFUIEdcaQ=
+		eETdGVRDrOCESPxbTtgwq3p1YAY=
+		</data>
+		<key>Headers/OpenConfig.h</key>
+		<data>
+		YaFQHz/gyEVQnaRtg+gNGxDTQJc=
 		</data>
 		<key>Headers/OpenSDK.h</key>
 		<data>
-		MZCei/3IuCs3nN0N6iLJAHHXB3g=
+		UC1HzqNpU9+wgCquXSDJTdXHPYA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,22 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LkWPtRf0gIiE40e4IIRFUIEdcaQ=
+			eETdGVRDrOCESPxbTtgwq3p1YAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sMa1Jukce1Pm/6kRXDT2By1itCl/Gpu4yC/UIVg2EYg=
+			qsZVsFbymkN4jsDSqpzYv7cu+8prP4ywd0sYELKBi9E=
+			</data>
+		</dict>
+		<key>Headers/OpenConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YaFQHz/gyEVQnaRtg+gNGxDTQJc=
+			</data>
+			<key>hash2</key>
+			<data>
+			93B0OPb54dxcdXohF87gZnEO8tccwiqO3r/K/GmLnrc=
 			</data>
 		</dict>
 		<key>Headers/OpenSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MZCei/3IuCs3nN0N6iLJAHHXB3g=
+			UC1HzqNpU9+wgCquXSDJTdXHPYA=
 			</data>
 			<key>hash2</key>
 			<data>
-			CfaldllRu91S0w6hoYAvkTzEpul9cSOa2+qvNW3Z9fw=
+			lZMx4dO3njqLE9QfeB6IhtuFIe8SguJslmCxirnnvxc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
