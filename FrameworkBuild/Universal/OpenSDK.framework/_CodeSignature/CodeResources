@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HiMoHelper.h</key>
 		<data>
-		eETdGVRDrOCESPxbTtgwq3p1YAY=
+		9G/+S/ECBvZzR8pxKBDu2Xalxgc=
 		</data>
 		<key>Headers/OpenConfig.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/OpenSDK.h</key>
 		<data>
-		l/Q7F13Xe1vMfAtIn9eCU94IDPo=
+		dLrm1YwylD2Edr4DyARR1q9LIm0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P9LaAi+AZ889Vrs3lwkogXQ8AzM=
+		fFp5xV8tctU7zDuuONsJemoAI20=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eETdGVRDrOCESPxbTtgwq3p1YAY=
+			9G/+S/ECBvZzR8pxKBDu2Xalxgc=
 			</data>
 			<key>hash2</key>
 			<data>
-			qsZVsFbymkN4jsDSqpzYv7cu+8prP4ywd0sYELKBi9E=
+			NColMV02SNkimonbGbZc1DM+kCr6GMBnplOMPjgRDXU=
 			</data>
 		</dict>
 		<key>Headers/OpenConfig.h</key>
@@ -53,11 +53,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l/Q7F13Xe1vMfAtIn9eCU94IDPo=
+			dLrm1YwylD2Edr4DyARR1q9LIm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			iWtOgzL1JsGKEnb9H4+6h0AbeIE/g+eDo4hjYp1qGHg=
+			ZRXt27K9dFi+VFHGbshs+/VHhumCmL47Sktjrh8Aad0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

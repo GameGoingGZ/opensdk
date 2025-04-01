@@ -10,8 +10,8 @@ void _initOpenSDKWithSetting(NSString *setting);
 void _setTheme(NSString *themeStr);
 
 
-
-void _track(NSString *eventName, ...);
+//void _track(NSString *eventName, ...);
+void _trackTiming(NSString *eventName, ...);
 //void _trackNow(NSString *eventName,NSString *json);
 void _trackImmediately(NSString *eventName,NSString *json);
 
