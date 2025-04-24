@@ -10,6 +10,8 @@
 
 @interface OpenConfig : NSObject
 
+@property (nonatomic, strong, readonly) NSString *channel;
+@property (nonatomic, strong, readonly) NSString *appId;
 @property (nonatomic, strong, readonly) NSString *appKey;
 @property (nonatomic, strong, readonly) NSString *appSecret;
 @property (nonatomic, strong, readonly) NSString *umkAppId;
@@ -31,6 +33,8 @@
 - (NSString *)toJson;
 - (BOOL)initByJson:(NSString *)json;
 
+-(void)setChannel:(NSString *)channel;
+-(void)setAppId:(NSString *)appId;
 -(void)setAppKey:(NSString *)appKey;
 -(void)setAppSecret:(NSString *)appSecret;
 -(void)setUmkAppId:(NSString *)umkAppId;

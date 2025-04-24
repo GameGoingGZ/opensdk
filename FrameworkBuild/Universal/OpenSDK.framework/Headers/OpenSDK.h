@@ -20,8 +20,13 @@ FOUNDATION_EXPORT const unsigned char OpenSDKVersionString[];
 //#import <OpenSDK/HiMoMgr.h>
 
 
-static NSString * const kSDKVersion = @"1.5.3";
+static NSString * const kSDKVersion = @"1.7.0";
 
+// 0:iOS_Unity
+// 1:iOS_Native
+// 2:Android_Unity
+// 3:Android_Native
+static NSInteger const kPlatformType = 1;
 
 
 
