@@ -1,12 +1,6 @@
-//
-//  GOOConfig.h
-//  DDTSDK
-//
-//  Created by zhijieli on 2024/8/22.
-//
 #import <Foundation/Foundation.h>
-//extern NSString* const SDKVersionName;
-//extern NSString* const SDKVersionCode;
+//extern NSString* const OpenSDKVersionName;
+//extern NSString* const OpenSDKVersionCode;
 
 @interface OpenConfig : NSObject
 
