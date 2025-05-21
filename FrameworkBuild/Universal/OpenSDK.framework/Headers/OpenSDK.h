@@ -13,7 +13,7 @@ FOUNDATION_EXPORT const unsigned char OpenSDKVersionString[];
 
 
 
-static NSString * const kSDKVersion = @"1.7.1";
+static NSString * const kSDKVersion = @"1.7.2";
 
 // 0:iOS_Unity
 // 1:iOS_Native

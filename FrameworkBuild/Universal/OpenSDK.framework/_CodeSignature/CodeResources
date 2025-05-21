@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/OpenSDK.h</key>
 		<data>
-		KmH3f56iQ8fSjgiQxu6GIwroGzE=
+		/er3VEGwzRCbahW4yAyN1suo4qs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -53,11 +53,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KmH3f56iQ8fSjgiQxu6GIwroGzE=
+			/er3VEGwzRCbahW4yAyN1suo4qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			d2E6NBGLzue2v3W+yQz+lfuX217NB+8HAGE7hO5Kcbg=
+			jy4b4Vcp0OHMSzWs4r3XaH6nm0QdSjjYzWu/R5QX0CE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
